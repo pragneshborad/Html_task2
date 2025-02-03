@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Img1.1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+
+        .header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .flex-container {
+            gap: 10px;
+            display: flex;
+
+        }
+
+
+
+        .column.side {
+            width: calc(100% / 3 - 10px);
+            float: left;
+            border: 2px solid black;
+          
+
+        }
+
+
+        .row {
+            gap: 10px;
+            display: flex;
+        }
+
+
+        @media screen and (max-width: 600px) {
+
+            .column.side,
+            .column.middle {
+                width: 100%;
+            }
+        }
+
+        .footer {
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>3 Colum Responsive Layout</h1>
+    </div>
+
+
+    <div class="flex-container">
+        <div class="row">
+
+            <div class="column side">
+                <h2>Content</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                    venenatis
+                    velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+                    placerat, purus
+                    leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
+                    convallis.
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                    venenatis
+                    velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+                    placerat, purus
+                    leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
+                    convallis.
+                </p>
+            </div>
+
+            <div class="column side">
+                <h2>Content</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                    venenatis
+                    velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+                    placerat, purus
+                    leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
+                    convallis.
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                    venenatis
+                    velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+                    placerat, purus
+                    leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
+                    convallis.
+                </p>
+            </div>
+
+            <div class="column side">
+                <h2>Content</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                    venenatis
+                    velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+                    placerat, purus
+                    leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
+                    convallis.
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                    venenatis
+                    velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam
+                    placerat, purus
+                    leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
+                    convallis.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <h1>Footer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At non quia iusto, quis qui quod tempore expedita,
+            quasi
+            illum, ducimus a voluptas impedit libero harum corporis dolores in voluptatum veritatis?</p>
+    </div>
+
+</body>
+
+</html>
